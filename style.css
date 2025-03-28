@@ -1,0 +1,210 @@
+@charset utf-8;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: secundary-color;
+}
+
+:root {
+    --primary-color: #090909; /* Tomato */
+    --secondary-color: #e5e3e2; /* Light Salmon */
+    --tertiary-color: #f5e1c9; /* Saddle Brown */
+    --quaternary-color:  #f5e1c9; /* Gold */
+    --text-color: #000000; /* Dark Gray */
+    --font-primary: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: rgb(171, 171, 164);
+    padding: 10px;
+    text-align: center;
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: rgba(14, 13, 13, 0.952);
+        transition: color 0.3s ease;
+        margin: 0 10px;
+        
+        }
+        a:hover {
+        color: rgb(243, 241, 239);
+    }
+}
+
+main > h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2.0rem;
+    color: var(--text-color);
+}
+
+main > img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+section > tempo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.caixa > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    
+}
+
+.receita {
+    text-align: left;
+    justify-content: flex-start;
+    margin: 20px auto;
+    color: var(--text-color);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dica {
+    text-align: left;
+    color: rgb(5, 5, 5);
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: #151415 solid 2px;
+    border-radius: 12px;
+    padding: 26px;
+    
+    /* Centraliza horizontalmente */
+    margin: 63px auto 0; /* Define apenas margem superior e auto para centralizar */
+}
+.img-gatos {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    width: 703px;
+    height: 226px;
+    margin: 0 auto;
+    margin-top: 10px; 
+}
+.publicidade {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 71px;
+        margin-bottom: 6px; 
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 14px;
+}
+ 
+
+.audio-container {
+    text-align: center; /* Centraliza tudo */
+}
+.audio-img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px; /* Opcional, dá bordas arredondadas */
+    margin-bottom: 10px;
+}
+
+.ingredientes {/* Borda bege */
+    padding: 20px;
+    max-width: 752px;
+    margin: 34px auto;
+    border-radius: 2px;
+    color: #0a0a0a;
+    text-align: left;
+}
+.ingredientes h2 {
+    text-align: left;
+    color: #0c0c0c;
+}
+.ingredientes ul {
+    list-style-type: square; /* Deixa os marcadores quadrados */
+    padding-left: 20px;
+}
+
+.modo-preparo {/* Borda bege */
+    padding: 15px;
+    max-width: 752px;
+    margin: 20px auto;
+    text-align: left;
+}
+.modo-preparo h2 {
+    text-align: left;
+}
+.modo-preparo ol {
+    padding-left: 20px;
+}
+.modo-preparo ol li {
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 721px;
+    height: auto;
+}
+
+.calda {
+    margin: 20px auto;
+    padding: 26px;
+    text-align: left;
+    max-width: 717px;
+    display: flex;
+    flex-direction: column;entraliza o conteúdo dentro da caixa */
+}
+
+.close {
+    margin: 20px auto;
+    padding: 26px;
+    text-align: left;
+    max-width: 773px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    box-sizing: border-box; /* Garante que o padding não afete a largura */
+    position: relative; /* Garantir que ele se posicione corretamente */
+    bottom: 0; /* Se for para ficar na parte inferior da página */
+}
+
