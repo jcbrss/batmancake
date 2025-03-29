@@ -9,7 +9,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: secundary-color;
+    background-color: white;
 }
 
 :root {
@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    background-color: rgb(171, 171, 164);
+    background-color: #a19f9c;
     padding: 10px;
     text-align: center;
     a {
@@ -83,7 +83,7 @@ section > tempo {
     justify-content: flex-start;
     margin: 20px auto;
     color: var(--text-color);
-    width: 46%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
